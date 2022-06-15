@@ -13,6 +13,15 @@ export default class ProductsModel {
 
     return products as Product[];
   }
+  
+  public async getByOrderId(id: number): Promise<Product[]> {
+    const [products] = await this.connection.execute(
+      'SELECT * FROM  Trybesmith.Products WHERE orderId = ?;',
+      [id],
+    );
+
+    return products as Product[];
+  }
 
   public async create(product: Product): Promise<Product> {
     const { name, amount } = product;
