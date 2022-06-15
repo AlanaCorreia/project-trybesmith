@@ -19,8 +19,6 @@ export default class ProductsModel {
     const [data] = await this.connection.execute<ResultSetHeader>(`
     INSERT INTO Trybesmith.Products (name, amount) VALUES (?, ?);`, [name, amount]);
 
-    console.log(data);
-    
     const newProduct = {
       id: data.insertId,
       name, 
