@@ -1,4 +1,4 @@
-# Projeto Trybers and Dragons
+# Projeto Trybesmith
 
 ## Contexto do projeto:
 
@@ -35,11 +35,11 @@ Projeto back-end para desenvolver um CRUD (Create, Read, Update e Delete) de ite
   ### :hammer_and_wrench: Instalação
   1- Clone o projeto em sua maquina rodando o seguinte comando no terminal:
 
-  ``` git clone git@github.com:https://github.com/AlanaCorreia/trybers-and-dragons.git ```
+  ``` git clone git@github.com:https://github.com/AlanaCorreia/project-trybesmith.git ```
 
   2- Depois de clonado, entre no diretório:
 
-  ``` cd trybers-and-dragons ```
+  ``` cd project-trybesmith ```
   
   3- Execute o docker-compose.yml através do script:
   
@@ -48,7 +48,7 @@ Projeto back-end para desenvolver um CRUD (Create, Read, Update e Delete) de ite
   4 - A partir daqui você pode rodar o container trybers_and_dragons via CLI ou abri-lo no VS Code.
     Use o comando:
       
-  ``` docker exec -it trybers_and_dragons bash ```
+  ``` docker exec -it trybesmith bash ```
 
     Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
     
